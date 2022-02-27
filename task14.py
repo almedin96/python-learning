@@ -13,3 +13,5 @@ if pitanje == str("C"):
       print("to ti je " + str(resultInFarad) + "°F") 
 elif pitanje != str("F") or pitanje != str("F"): 
     print("Mozes unijeti samo C ili F") 
+
+    print(pitanje[:1:-1])
